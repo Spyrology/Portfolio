@@ -1,0 +1,268 @@
+/*** CSS RESET ***/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End CSS RESET */
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-attachment: fixed;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	background: rgb(255,255,250);
+	-moz-box-shadow: 0 2px 3px #efefef;
+	-webkit-box-shadow: 0 2px 3px #efefef;
+	box-shadow: 0 2px 3px #efefef;
+	z-index: 2;
+}
+
+#logo {
+	float: left;
+	width: 30%;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(47,174,225);
+	margin-left: 10px;
+	line-height: 1.4em;
+}
+	
+nav {
+	display: block;
+	float: right;
+	line-height: 40px;
+	text-align: right;
+	width: 40%;
+	margin-right: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 2px;
+	font-size: 1em;
+	line-height: 2.9em;
+	padding-left: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.image-space {
+	display: block;
+	height: 670px;
+}
+
+.circle {
+	background-color: #fff;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	height: 300px;
+	margin: -150px 0 0 -150px;
+	opacity: .65;
+	filter: alpha(opacity=50);  /* IE8 and lower */
+	zoom: 1;  /* set "zoom", "width" or "height" to trigger "hasLayout" in IE 7 and lower */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+	}
+
+.circle-text {
+	color: #333;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 150%;
+	padding-top: 50px;
+	font-size: 2em;
+}
+
+.down {
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+.up {
+	position: relative;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	height: 660px;
+	padding-top: 50px;
+	background: rgb(255,255,250);
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.anchor {
+	position: absolute;
+	top: 0px;
+}
+
+h2 {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	font-size: 1.7em;
+	line-height: 1.4;
+	-moz-box-shadow: 0 2px 3px #efefef;
+	-webkit-box-shadow: 0 2px 3px #efefef;
+	box-shadow: 0 2px 3px #efefef;
+	color: white;
+	background-color: rgb(100,42,66);
+	-webkit-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.display {
+	position: relative;
+	width: 35%;
+	text-align: center;
+	display: inline-block;
+	margin: 40px 40px;
+	font-family: 'Ubuntu', sans-serif;
+	overflow: hidden;
+	background: white;
+	-webkit-box-shadow: 0px 18px 18px 0px rgba(50, 50, 50, 0.12);
+	-moz-box-shadow: 0px 18px 18px 0px rgba(50, 50, 50, 0.12);
+	box-shadow: 0px 18px 18px 0px rgba(50, 50, 50, 0.12);
+}
+
+.display-bottom {
+	position: relative;
+	width: 100%;
+	height: 4px;
+	background-color: rgb(100,42,66);
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .75;
+	z-index: 1;
+	display: none;
+}
+
+.overlay p {
+	color: white;
+	margin-top: 50px;
+	padding: 0px 20px;
+}
+
+.grid-image {
+	position: relative;
+	padding-top: 20px;
+	margin-bottom: -20px;
+}
+
+.grid-image img {
+	width: 300px;
+	height: 165px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: rgba(182,158,147,.5);
+	text-align: center;
+}
+
+.social {
+	position: relative;
+	top: 70px;
+}
+
+.social a {
+	margin: 0px 10px;
+}
+
+/**  MOBILE LAYOUT  (portrait and landscape) **/
+@media only screen and (max-width: 480px) {
+
+header {
+	display: none;
+}
+
+.image-space {
+	height: 100%;
+}
+
+.content {
+	min-height: 1250px;
+}
+
+.display {
+	position: relative;
+	width: 90%;
+	display: block;
+	margin: 70px auto;
+}
+
+.anchor {
+	position: absolute;
+	top: 40px;
+}
+
+.grid-img img {
+	width: 80%;
+	height: 44%;
+}
+
+}
