@@ -236,33 +236,33 @@ footer {
 /**  MOBILE LAYOUT  (portrait and landscape) **/
 @media only screen and (max-width: 480px) {
 
-header {
-	display: none;
-}
+	header {
+		display: none;
+	}
 
-.image-space {
-	height: 100%;
-}
+	.image-space {
+		height: 100%;
+	}
 
-.content {
-	min-height: 1250px;
-}
+	.content {
+		min-height: 1250px;
+	}
 
-.display {
-	position: relative;
-	width: 90%;
-	display: block;
-	margin: 70px auto;
-}
+	.display {
+		position: relative;
+		width: 90%;
+		display: block;
+		margin: 70px auto;
+	}
 
-.anchor {
-	position: absolute;
-	top: 40px;
-}
+	.anchor {
+		position: absolute;
+		top: 40px;
+	}
 
-.grid-img img {
-	width: 80%;
-	height: 44%;
-}
+	.grid-img img {
+		width: 80%;
+		height: 44%;
+	}
 
 }
