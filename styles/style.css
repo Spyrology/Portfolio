@@ -316,7 +316,7 @@ footer {
 	}
 
 	header {
-	height: 35px;
+		height: 35px;
 	}
 
 	#logo {
@@ -335,11 +335,17 @@ footer {
 		padding-left: 20px;
 	}
 
+	.image-space {
+		display: block;
+		height: 470px;
+	}
+
 	.circle {
 		width: 200px;
 		height: 200px;
 		font-size: .5em;
 		margin: -100px 0 0 -100px;
+		top: 34%;
 	}
 
 	h2 {
