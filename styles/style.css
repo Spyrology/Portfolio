@@ -335,8 +335,10 @@ footer {
 		padding-left: 20px;
 	}
 
-	.center {
+	.circle {
 		width: 150px;
+		height: 150px;
+		font-size: .5em;
 	}
 
 	h2 {
