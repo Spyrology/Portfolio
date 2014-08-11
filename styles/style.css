@@ -234,7 +234,7 @@ footer {
 }
 
 /**  MOBILE LAYOUT  (portrait and landscape) **/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 460px) {
 
 	body {
 		background-attachment: scroll;
@@ -272,7 +272,12 @@ footer {
 }
 
 /** PHABLET LAYOUT **/
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 460px) and (max-width: 768px) {
+	
+	body {
+		background-attachment: scroll;
+	}
+
 	header {
 	height: 35px;
 	}
@@ -326,8 +331,12 @@ footer {
 /**  TABLET LAYOUT  (portrait) **/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+	body {
+		background-attachment: scroll;
+	}
+
 	header {
-	height: 35px;
+		height: 35px;
 	}
 
 	#logo {
