@@ -99,6 +99,7 @@ a {
 }
 
 .image-space {
+	position: relative;
 	display: block;
 	height: 670px;
 }
