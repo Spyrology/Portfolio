@@ -272,42 +272,6 @@ footer {
 
 }
 
-/**  SAMSUNG GALAXY S3 **/
-@media only screen and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-
-	body {
-		background-attachment: scroll;
-	}
-
-	header {
-		display: none;
-	}
-
-	.image-space {
-		height: 100%;
-	}
-
-	.content {
-		min-height: 1250px;
-	}
-
-	.display {
-		position: relative;
-		width: 90%;
-		display: block;
-		margin: 70px auto;
-	}
-
-	.anchor {
-		position: absolute;
-		top: 40px;
-	}
-
-	.grid-img img {
-		width: 80%;
-		height: 44%;
-	}
-}
 
 /** PHABLET LAYOUT **/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -338,7 +302,7 @@ footer {
 
 	.image-space {
 		display: block;
-		height: 400px;
+		height: 380px;
 	}
 
 	.circle {
