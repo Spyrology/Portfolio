@@ -234,7 +234,7 @@ footer {
 }
 
 /**  MOBILE LAYOUT **/
-@media only screen and (max-width: 480px) and (orientation: portrait) {
+@media only screen and (max-width: 480px) {
 
 	body {
 		background-attachment: scroll;
@@ -271,7 +271,9 @@ footer {
 
 }
 
+/**  SAMSUNG GALAXY S3 **/
 @media only screen and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+
 	body {
 		background-attachment: scroll;
 	}
@@ -305,10 +307,9 @@ footer {
 		height: 44%;
 	}
 }
-
 
 /** PHABLET LAYOUT **/
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) and (orientation: landscape) {
 	
 	body {
 		background-attachment: scroll;
