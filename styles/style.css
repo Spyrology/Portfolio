@@ -233,8 +233,8 @@ footer {
 	margin: 0px 10px;
 }
 
-/**  MOBILE LAYOUT  (portrait) **/
-@media only screen and (max-width: 420px) {
+/**  MOBILE LAYOUT **/
+@media only screen and (max-width: 480px) and (orientation: portrait) {
 
 	body {
 		background-attachment: scroll;
@@ -272,7 +272,7 @@ footer {
 }
 
 /** PHABLET LAYOUT **/
-@media only screen and (min-width: 420px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 	
 	body {
 		background-attachment: scroll;
