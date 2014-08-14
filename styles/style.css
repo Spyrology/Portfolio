@@ -140,19 +140,78 @@ a {
 .content {
 	position: relative;
 	width: 100%;
-	height: 660px;
-	padding-top: 50px;
+	height: auto;
+	padding-top: 10px;
 	background: rgb(255,255,250);
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.anchor {
-	position: absolute;
-	top: 0px;
+.about {
+	position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+	background: url("images/sos.png");
 }
 
-h2 {
+#about {
+	position: absolute;
+	top: -60px;
+}
+
+#about-header {
+	position: relative;
+	width: 77%;
+	height: 40px;
+	font-size: 1.7em;
+	line-height: 1.6;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: rgb(47,174,225);
+	-webkit-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.about p {
+	width: 75%;
+	font-family: 'Karla',sans-serif;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 1.3em;
+}
+
+hr {
+	width: 77%;
+	background: gray;
+}
+
+.portfolio {
+	position: relative;
+	width: 100%;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#portfolio {
+	position: absolute;
+	top: -10px;
+}
+
+#portfolio-header {
+	position: relative;
+	width: 50%;
+	height: 40px;
+	top: 42px;
+	font-size: 2.3em;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	color: rgb(47,174,225);
+	text-align: center;
+}
+
+h3 {
 	position: relative;
 	width: 100%;
 	height: 40px;
@@ -202,7 +261,7 @@ h2 {
 
 .overlay p {
 	color: white;
-	margin-top: 50px;
+	margin-top: 60px;
 	padding: 0px 20px;
 }
 
@@ -261,14 +320,10 @@ footer {
 		padding-left: 20px;
 	}
 
-	h2 {
+	h3 {
 		font-size: 1.2em;
 		line-height: 1.9;
 		}
-
-	.content {
-		height: 460px;
-	}
 
 	.display {
 		width: 40%;
@@ -328,13 +383,22 @@ footer {
 		margin: -100px 0 0 -100px;
 	}
 
-	h2 {
-		font-size: 1.0em;
-		line-height: 2.5;
+	#portfolio-header {
+		font-size: 2.0em;
 	}
 
-	.content {
-		height: 360px;
+	#about-header {
+		font-size: 1.5em;
+		line-height: 1.75;
+	}
+
+	.about p {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-size: 1.0em;
+		line-height: 2.5;
 	}
 
 	.display {
@@ -350,7 +414,7 @@ footer {
 
 	.overlay p {
 		color: white;
-		margin-top: 20px;
+		margin-top: 25px;
 		padding: 0px 10px;
 		font-size: .8em;
 	}
@@ -372,8 +436,16 @@ footer {
 		height: 100%;
 	}
 
-	.content {
-		min-height: 1250px;
+	.about p {
+		text-align: center;
+	}
+
+	#about-header {
+		line-height: 1.55;
+	}
+
+	#portfolio-header {
+		margin-bottom: 100px;
 	}
 
 	.display {
@@ -381,11 +453,6 @@ footer {
 		width: 95%;
 		display: block;
 		margin: 70px auto;
-	}
-
-	.anchor {
-		position: absolute;
-		top: 40px;
 	}
 
 	.grid-image img {
@@ -417,8 +484,12 @@ footer {
 		margin: -125px 0 0 -125px;
 	}
 
-	.content {
-		min-height: 1010px;
+	.about p {
+		text-align: center;
+	}
+
+	#portfolio-header {
+		margin-bottom: 90px;
 	}
 
 	.display {
@@ -426,11 +497,6 @@ footer {
 		width: 95%;
 		display: block;
 		margin: 70px auto;
-	}
-
-	.anchor {
-		position: absolute;
-		top: 40px;
 	}
 
 	.grid-image img {

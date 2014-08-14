@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Spyros Karidis - Front End Development Portfolio</title>
+	<title>Spyros Karidis - Front-End Development Portfolio</title>
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link type="text/css" rel="stylesheet" href="styles/animate.css">
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
 
 	<!-- JavaScript -->
 	<script type="text/javascript" src="js/jquery-1.js"></script>
@@ -22,7 +23,7 @@
 		<div id="logo"><p>Spyros Karidis</p></div>
 				<nav>
 				    <ul>
-				    	<li><a href="#home">Home</a></li>
+				    	<li><a href="#about">About</a></li>
 				      <li><a href="#portfolio">Portfolio</a></li>
 				      <li><a href="#contact">Contact</a></li>
 				    </ul>
@@ -34,62 +35,73 @@
 	<div class="circle">
 		<h1 class="circle-text">Hi.<br>Welcome to<br>my dev portfolio.</h1>
 		<!-- v DOWN ARROW v -->
-		<p class="down"><a href="#portfolio"><img src="images/down-arrow.png" height="20" width="40" alt="down arrow"></a></p>
+		<p class="down"><a href="#about"><img src="images/down-arrow.png" height="20" width="40" alt="down arrow"></a></p>
 	</div>
 
 	</section>
 
 	<div class="content">
 
-		<div class="anchor"><a id="portfolio"></a></div>
-		
-		<div class="display project-1">
-			<h2>Carpe Diem</h2>
-				<div class="grid-image"><a href="http://spyrology.github.io/Carpe-Diem/" target="blank">
-					<img src="images/carpediem.png" alt="screenshot of web page">
+		<section class="about"><a id="about"></a>
+			<h2 id="about-header">About</h2>
+				<p>This portfolio was developed through Thinkful's Front-End Web Development Course. But it is more than just a demonstration of what I can currently code. It is a demonstration of what I can do. Just a few short months before this was published, I didn't know how to write a line of code. If there is one thing I am passionate about, it is learning. If there is one thing I can do well, it is to learn quickly. My next goals are to learn back-end web development and data analytics. These goals have intrinsic value, which is reason enough to pursue them. More broadly, achieving them will help me better serve the people I work with, and solve real world problems for the greater good. That, is the ultimate goal.</p>
+		</section>
+
+		<hr>
+
+		<section class="portfolio"><a id="portfolio"></a>
+
+			<h2 id="portfolio-header">Portfolio</h2>
+			
+			<div class="display project-1">
+				<h3>Carpe Diem</h3>
+					<div class="grid-image"><a href="http://spyrology.github.io/Carpe-Diem/" target="blank">
+						<img src="images/carpediem.png" alt="screenshot of web page">
+					
+					<div class="overlay"><p>Make the most of your day by organizing your goals and checking them off.</p></div>
+
+						</a>
+					</div>
+				<div class="display-bottom"></div>
+			</div><!-- close project-1 -->
+
+			<div class="display project-2">
+				<h3>Hot or Cold</h3>
+					<div class="grid-image"><a href="http://spyrology.github.io/hot-or-cold-starter/" target="blank">
+						<img src="images/HoC.png" alt="screenshot of web page">
 				
-				<div class="overlay"><p>Make the most of your day by organizing your goals and checking them off.</p></div>
+					<div class="overlay"><p>Atlantic City too grimy? Scratch that itch with a wholesome guessing game.</p></div>
+				
+						</a>
+					</div>
+				<div class="display-bottom"></div>
+			</div><!-- close project-2 -->
 
-					</a>
-				</div>
-			<div class="display-bottom"></div>
-		</div><!-- close project-1 -->
+			<div class="display project-3">
+				<h3>Quiz App</h3>
+					<div class="grid-image"><a href="http://spyrology.github.io/Quiz-App/" target="blank">
+						<img src="images/quizapp.PNG" alt="screenshot of web page">
 
-		<div class="display project-2">
-			<h2>Hot or Cold</h2>
-				<div class="grid-image"><a href="http://spyrology.github.io/hot-or-cold-starter/" target="blank">
-					<img src="images/HoC.png" alt="screenshot of web page">
-			
-				<div class="overlay"><p>Atlantic City too grimy? Scratch that itch with a wholesome guessing game.</p></div>
-			
-					</a>
-				</div>
-			<div class="display-bottom"></div>
-		</div><!-- close project-2 -->
+					<div class="overlay"><p>Know it all? Put your cognition and business acumen to the test.</p></div>
 
-		<div class="display project-3">
-			<h2>Quiz App</h2>
-				<div class="grid-image"><a href="http://spyrology.github.io/Quiz-App/" target="blank">
-					<img src="images/quizapp.PNG" alt="screenshot of web page">
+						</a>
+					</div>
+				<div class="display-bottom"></div>
+			</div><!-- close project-3 -->
 
-				<div class="overlay"><p>Know it all? Put your cognition and business acumen to the test.</p></div>
+			<div class="display project-4">
+				<h3>Donor's Choose API</h3>
+					<div class="grid-image"><a href="http://spyrology.github.io/API-Hack/" target="blank">
+						<img src="images/donorschoose.png" alt="screenshot of web page">
 
-					</a>
-				</div>
-			<div class="display-bottom"></div>
-		</div><!-- close project-3 -->
+					<div class="overlay"><p>What was your favorite subject? Be the first to fund a classroom project in a high-poverty school.</p></div>
 
-		<div class="display project-4">
-			<h2>Donor's Choose API</h2>
-				<div class="grid-image"><a href="http://spyrology.github.io/API-Hack/" target="blank">
-					<img src="images/donorschoose.png" alt="screenshot of web page">
+						</a>
+					</div>
+				<div class="display-bottom"></div>
+			</div><!-- close project-4 -->
 
-				<div class="overlay"><p>What was your favorite subject? Be the first to fund a classroom project in a high-poverty school.</p></div>
-
-					</a>
-				</div>
-			<div class="display-bottom"></div>
-		</div><!-- close project-4 -->
+		</section><!-- close portfolio -->
 
 	</div><!-- close content -->
 
